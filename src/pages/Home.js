@@ -42,7 +42,6 @@ function Home() {
     return (
         <>
             <Navbar />
-            {version}
             <div className="grid-container">
                 {champions.map(champion => (
                     <ChampionGrid key={champion.key} champion={champion} />

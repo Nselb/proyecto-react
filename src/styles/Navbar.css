@@ -1,0 +1,36 @@
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-item {
+    list-style: none;
+}
+
+.left {
+    flex: 2 1 auto;
+}
+
+.center {
+    flex: 2 1 auto;
+}
+
+.searchbar {
+    width: 500px;
+}
+
+.navbar-item a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: aliceblue;
+    height: 70px;
+}

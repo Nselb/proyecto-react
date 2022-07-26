@@ -1,18 +1,29 @@
 .wrapper {
     overflow: hidden;
     position: relative;
+    margin-top: 70px;
 }
+
 .champion_splash {
     position: absolute;
     opacity: 0.4;
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 120%;
     object-fit: cover;
 }
+
 .champion_details_container {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
+    margin-left: 20px;
+}
+
+.bars-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 80px;
 }
